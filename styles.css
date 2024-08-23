@@ -1,3 +1,85 @@
-/* Your Styles Here */
-body{
-}
+/* Welcome Section */
+.welcome-section {
+    display:flex;
+    align-items: flex-start;
+    padding: 50px 20px;
+  }
+  
+  .welcome-heading-1 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 420%;
+    color: rgb(132, 61, 64); /* Gold color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .welcome-heading-2 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 400%;
+    color: #A9575Aff; /* Gold color */
+    text-align: center;
+    margin: 0;
+  }
+  
+  .welcome-image {
+    flex: 1;
+    width: 200%;
+    max-width: 900px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 0px;
+   margin-top: 15px;
+  }
+  
+  .welcome-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome-instructions {
+    font-size: 1.2rem;
+    color: rgb(61, 19, 22);
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
+  .welcome-instructions-shadow {
+    border: 2px solid #A9575Aff;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #F9DCD1ff;
+    border-radius: 10px;
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .welcome-instructions-shadow::before,
+  .welcome-instructions-shadow::after {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 2px;
+    background-color: #A9575Aff;
+    margin: 10px auto;
+  }
+  
+  .wishlist-heading {
+    color: rgb(74,89,43);
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .wishlist-heading::before,
+  .wishlist-heading::after {
+    content: '';
+    display: block;
+    width: 1500px;
+    height: 5px;
+    background-color: #A9575Aff;
+    margin: 10px auto;
+  }
