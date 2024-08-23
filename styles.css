@@ -18,19 +18,19 @@ body {
 }
 
 .card {
-  background-color: #ffffff; /* White background for the card */
+  background-color: #000000; /* Black background for the card */
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   width: 350px;
   padding: 20px;
   text-align: center;
   position: relative;
-  border: 2px solid #000000; /* Black border for the card */
-  box-shadow: 0 0 15px #000000; /* Black shadow */
+  border: 2px solid; /* Add border */
+  border-image: linear-gradient(135deg, #a2d5f2, #ff66b2) 1; /* Pastel blue and pink border */
 }
 
 h1 {
-  color: #333333; /* Dark grey for the title */
+  color: #ffffff; /* White text for the title */
   margin-bottom: 15px;
 }
 
@@ -45,11 +45,11 @@ h1 {
   width: 100px; /* Adjust size as needed */
   height: 100px; /* Maintain aspect ratio */
   object-fit: cover;
-  border: 4px solid #ff66b2; /* Pastel pink border */
+  border: 4px solid #a2d5f2; /* Pastel blue border */
 }
 
 .intro, .passion {
-  color: #555555; /* Medium grey for the text */
+  color: #ffffff; /* White text */
   margin-bottom: 20px;
 }
 
